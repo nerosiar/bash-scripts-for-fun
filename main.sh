@@ -6,15 +6,15 @@ ans=$(zenity  --list  --text "change as you like ?" --radiolist  --column "Pick"
 echo $ans
 
 if [ $ans = "Menu1" ];then
-  echo "you r in the first menu"
-if [ $ans = "Menu2" ];then
-  echo "you r in the first menu"
-if [ $ans = "Menu3" ];then
-  echo "you r in the first menu"
-if [ $ans = "Menu4" ];then
-  echo "you r in the first menu"
+  ./animal.sh
+elif [ $ans = "Menu2" ];then
+  echo "menu 2 not yet"
+elif [ $ans = "Menu3" ];then
+  echo "menu 3 not yet"
+elif [ $ans = "Menu2" ];then
+  echo "menu 4 revoke urself"
 else
    echo "try again"
-fi;
+fi
 
 #zenity --color-selection --color red --show-palette

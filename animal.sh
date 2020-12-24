@@ -1,3 +1,11 @@
 #! /bin/bash 
 
-echo "hello there this is the execution of animal.sh"
+# pick the database file 
+
+animalsDB="animals"
+
+# check file exist . if not leave program 
+if [ ! -f $animalsDB ];then
+  echo  "Database file not found. exiting. bye bye!"
+  exit 
+fi

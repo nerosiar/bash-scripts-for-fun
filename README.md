@@ -2,6 +2,7 @@
 
 ## Create a GTK+ graphic widgets to manipulate a management app 
 ---
-* [ ] create Menu zenity manipulation 
+* [ ] create Menu zenity 
 * [ ] CRUD
-* [ ] interface
+* [ ] data manipulation in the crud / file 
+* [ ] data control 
