@@ -7,6 +7,12 @@ echo $ans
 
 if [ $ans = "Menu1" ];then
   echo "you r in the first menu"
+if [ $ans = "Menu2" ];then
+  echo "you r in the first menu"
+if [ $ans = "Menu3" ];then
+  echo "you r in the first menu"
+if [ $ans = "Menu4" ];then
+  echo "you r in the first menu"
 else
    echo "try again"
 fi;
